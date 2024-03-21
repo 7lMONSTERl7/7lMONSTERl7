@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @7lMONSTERl7
 - 👀 I’m interested in Anything
-if you need more info check https://oggo.free.nf/
+if you need more info check https://oggo.nichesite.org/
 
 <!---
 7lMONSTERl7/7lMONSTERl7 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
