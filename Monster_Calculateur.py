@@ -1,4 +1,3 @@
-import ast
 import math
 from tkinter import * 
 
