@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculateur</title>
+</head>
+
+<body>
+    <section class="hdr">
+        <span>Calculateur</span>
+        <a href="https://oggo.lovestoblog.com" target="_blank" id="srv">OGGO</a>
+        <select id="language" name="language" onchange=languageChange()>
+            <option value="en" selected>EN</option>
+            <option value="ar">AR</option>
+            <option value="fr">FR</option>
+        </select>
+    </section>
+    <section class="main">
+        <div class="cont">
+            <h2>MONSTER Calculateur</h2>
+            <div class="grt"></div>
+            <p>Feel free to perform mathematical operations.</p>
+            <div class="calc">
+                <input type="text" class="inp" id="inp" readonly>
+                <div class="nums">
+                    <button onclick="add(1)" type="button">1</button>
+                    <button onclick="add(2)" type="button">2</button>
+                    <button onclick="add(3)" type="button">3</button>
+                    <button onclick="add('+')" type="button">+</button>
+                    <button onclick="add('*')" type="button">X</button>
+                    <br>
+                    <button onclick="add(4)" type="button">4</button>
+                    <button onclick="add(5)" type="button">5</button>
+                    <button onclick="add(6)" type="button">6</button>
+                    <button onclick="add('-')" type="button">-</button>
+                    <button onclick="add('/')" type="button">/</button>
+                    <br>
+                    <button onclick="add(7)" type="button">7</button>
+                    <button onclick="add(8)" type="button">8</button>
+                    <button onclick="add(9)" type="button">9</button>
+                    <button onclick="calculateGCD()" type="button">GCD</button>
+                    <button class="eql" onclick="calc()" type="button">=</button>
+                    <br>
+                    <button onclick="add(0)" class="zero" type="button">0</button>
+                    <button onclick="add('.')" type="button">.</button>
+                    <button onclick="calculateLCM()" type="button">LCM</button>
+                    <br>
+                    <button onclick="clearInput()" type="button">Clear</button>
+                    <button onclick="add('%')" type="button">//</button>
+                    <button onclick="add('**')" type="button">^</button>
+                    <button onclick="add(' ')" type="button">Spc</button>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+</body>
+<script src="script.js"></script>
+</html>

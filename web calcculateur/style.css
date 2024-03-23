@@ -1,0 +1,314 @@
+
+.hdr{
+    position: fixed;
+    background-color: black;
+    height: 3em;
+    width: 99%;
+    border-radius: 20em;
+    margin-top: 0.4em;
+    margin-left: 0.5%;
+}
+
+.hdr span {
+    color: chartreuse;
+    margin-left: 4%;
+    font-size: 2em;
+    margin-right: 60%;
+}
+
+.hdr a {
+    color: chartreuse;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 1.5%;
+    border-radius: 20em;
+    box-shadow: 0 0 10px chartreuse, 0 0 10px chartreuse, 0 0 20px chartreuse;
+}
+
+.hdr a:hover {
+    transform: scale(1.1);
+    transition: 0.9s ease;
+}
+
+#language{
+    border-radius: 20em;
+    font: bold;
+    box-shadow: 0 0 10px chartreuse, 0 0 10px chartreuse, 0 0 20px chartreuse;
+    background-color: #0000;
+    color: chartreuse;
+}
+
+#language:hover{
+    transform: scale(1.1);
+    transition: 0.9s ease;
+}
+
+body, .main {
+    margin: 0;
+    padding: 0; 
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url('rec/bc1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main .cont{
+    margin-top: 6em;
+}
+
+.main .cont h2{
+    color: red;
+    font-size: 1.7em;
+}
+
+.main .cont .grt{
+    font-size: 1.2em;
+}
+
+.main .cont p{
+    font-size: 1.2em;
+    text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000;
+}
+
+.main .cont .calc{
+    border: 2px solid red;
+    height: 29em;
+    border-radius: 2em;
+    padding: 20px; 
+    background-color: rgba(233, 233, 233, 0.5);
+    box-shadow: 0 0 5px red, 0 0 5px red, 0 0 10px red;
+}
+
+.main .cont .calc .inp{
+    display: block;
+    margin: 0 auto;
+    border-left:4px solid red ;
+    border-right:4px solid red ;
+    border-radius: 10px;
+    background-color: rgba(233, 233, 233, 0);
+    box-shadow: 0 0 5px #ff0000, 0 0 5px #ff0000, 0 0 10px #ff0000;
+}
+
+.main .cont .calc .nums{
+    margin-top: 3em;
+    margin-left: 1em;
+}
+
+.main .cont .calc .nums button{
+    margin: 1em;
+    height: 3em;
+    width: 3em;
+    border: 2px solid red;
+    border-radius: 9px;
+    box-shadow: 0 0 2.5px #ff0000, 0 0 2.5px #ff0000, 0 0 5px #ff0000;
+}
+
+.main .cont .calc .nums button:hover{
+    transform: scale(1.1);
+    transition: 0.9s ease;
+}
+
+.main .cont .calc .nums .zero{
+    width: 8.3em;
+}
+
+.main .cont .calc .nums .eql{
+    height: 13em;
+    position: absolute;
+}
+
+@media (max-width:700px){
+
+    .hdr span{
+        font-size: 1.2em;
+        margin-right: 40%;
+        margin-left: 0.5em;
+    }
+
+    .hdr a {
+        margin-top: 1em;
+        margin-right: 0.4%;
+    }
+
+    .main .cont .calc {
+        height: 30em;
+        padding: 20px; 
+    }
+
+    .main .cont .calc .nums{
+        margin-left: 1em;
+    }
+
+    .main .cont .calc .nums button{
+        margin: 1em;
+        height: 3em;
+        width: 3em;
+    }
+
+    .main .cont .grt{
+        font-size: 1.5em;
+    }
+    
+    .main .cont p{
+        font-size: 1em;
+    }
+    
+    .main .cont .calc .nums .zero{
+        width: 8em;
+    }
+    
+    .main .cont .calc .nums .eql{
+        height: 10em;
+    }
+
+}
+
+@media (max-width:400px){
+
+    .hdr span{
+        font-size: 0.8em;
+        margin-right: 40%;
+        margin-left: 0.3em;
+    }
+
+    .hdr a {
+        margin-top: 0.7em;
+        margin-right: 0.3%;
+    }
+
+    .main .cont .calc {
+        height: 18em;
+        padding: 20px; 
+    }
+
+    .main .cont .calc .nums{
+        margin-left: 0.5em;
+    }
+
+    .main .cont .calc .nums button{
+        margin: 0.7em;
+        height: 2.7em;
+        width: 2.9em;
+        font-size: 0.7em;
+    }
+
+    .main .cont .grt{
+        font-size: 1em;
+    }
+    
+    .main .cont p{
+        font-size: 0.9em;
+    }
+    
+    .main .cont .calc .nums .zero{
+        width: 7em;
+    }
+    
+    .main .cont .calc .nums .eql{
+        height: 6em;
+    }
+
+}
+
+@media (max-width:308px){
+
+    .hdr span{
+        font-size: 0.6em;
+        margin-right: 30%;
+        margin-left: 0.2em;
+    }
+
+    .hdr a {
+        margin-top: 0.5em;
+        margin-right: 0.2%;
+    }
+
+    .main .cont .calc {
+        height: 23em;
+        padding: 20px; 
+    }
+
+    .main .cont .calc .nums{
+        margin-left: 0.3em;
+    }
+
+    .main .cont .calc .nums button{
+        margin: 0.6em;
+        height: 2.6em;
+        width: 2.6em;
+        font-size: 0.7em;
+    }
+
+    .main .cont .grt{
+        font-size: 0.7em;
+    }
+    
+    .main .cont p{
+        font-size: 0.6em;
+    }
+    
+    .main .cont .calc .nums .zero{
+        width: 6em;
+    }
+    
+    .main .cont .calc .nums .eql{
+        height: 5em;
+    }
+
+}
+
+@media (max-width:279px){
+
+    .hdr span{
+        font-size: 0.7em;
+        margin-right: 27%;
+        margin-left: 0.1em;
+    }
+
+    .hdr a {
+        margin-top: 0.4em;
+        margin-right: 0.2%;
+    }
+
+    .main .cont .calc {
+        height: 20em;
+        padding: 18px; 
+    }
+
+    .main .cont .calc .nums{
+        margin-left: 0.2em;
+    }
+
+    .main .cont .calc .nums button{
+        margin: 0.3em;
+        height: 2.5em;
+        width: 2.5em;
+        font-size: 0.5em;
+    }
+
+    .main .cont .grt{
+        font-size: 0.6em;
+    }
+    
+    .main .cont p{
+        font-size: 0.6em;
+    }
+    
+    .main .cont .calc .nums .zero{
+        width: 6em;
+    }
+    
+    .main .cont .calc .nums .eql{
+        height: 5em;
+    }
+
+}
