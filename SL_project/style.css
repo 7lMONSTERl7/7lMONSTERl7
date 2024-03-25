@@ -1,0 +1,44 @@
+*{
+    background-color: black;
+}
+
+.hdr{
+    padding: 1.5em;
+    padding-top: 0em;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    color: #fff;
+}
+
+#language{
+    color: #000000;
+    background-color: #fff;
+    border-radius: 20em;
+}
+
+.gret{
+    color: red;
+}
+
+.hdr span{
+    background-color: #fff;
+    color: red;
+    font-size: 2em;
+    margin-right: 40em;
+}
+
+.hdr a{
+    background-color: #fff;
+    color: red;
+}
+
+.main{
+    margin-left: 9em;
+    margin-top: 6em;
+    color: #fff;
+}
+
+.main .tit{
+    color: red;
+}
