@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'MadimiOne';
+    src: url(../rec/fonts/MadimiOne-Regular.ttf);
+}
+
+*{
+    font-family: 'MadimiOne' , 'Regular';
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    min-height: 100vh;
+    background-image: url('../rec/img/bc.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main{
+    min-width: 100%;
+}
+
+.hdr {
+    background-color: black;
+    height: 3em;
+    min-width: 100vh;
+    border-radius: 20em;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1em;
+}
+
+.hdr span {
+    color: chartreuse;
+    font-size: 2em;
+}
+
+
+.hdr a {
+    text-decoration: none;
+    color: chartreuse;
+    font-size: 1.7em;
+    margin-right: 6em;
+}
+
+#language{
+    background-color: #000;
+    color: chartreuse;
+    border-radius: 20px;
+    margin-right: 1em;
+    border-left: 4px solid chartreuse;
+    border-right: 4px solid chartreuse;
+}
+
+
+.main .content{
+    margin-top: 6em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#art{
+    width: 35em;
+    height: 2em;
+    border-radius: 20px;
+}
+
+#ser {
+    width: 7em; /* Adjust width as needed */
+    height: 2.5em; /* Adjust height as needed */
+    border-radius: 20px;
+    color: chartreuse;
+    background-color: #000;
+}
+
+
+#lyrics {
+    color: wheat;
+    white-space: pre-line;
+    margin-top: 3em;
+}
